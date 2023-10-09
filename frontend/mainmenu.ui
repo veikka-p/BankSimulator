@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu</class>
+ <widget class="QDialog" name="MainMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BankSimul</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="BalanceButton">
+     <property name="text">
+      <string>Saldo</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="TransactionsButton">
+     <property name="text">
+      <string>Tilitapahtumat</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="WithdrawButton">
+     <property name="text">
+      <string>Otto</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="LogOutButton">
+     <property name="text">
+      <string>Kirjaudu ulos</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>WithdrawButton</tabstop>
+  <tabstop>TransactionsButton</tabstop>
+  <tabstop>BalanceButton</tabstop>
+  <tabstop>LogOutButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
